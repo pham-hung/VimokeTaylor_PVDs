@@ -1,1 +1,2 @@
 # VimokeTaylor_PVDs
+VTP is the open-source software which aims to determine the correction factor of the Vimoke— Taylor concept for 3D models of prefabricated vertical drains (PVDs) systems. The theory behinds the software is mentioned in the manuscript named “Application of the Vimoke–Taylor concept for fully coupled models of consolidation by prefabricated vertical drains “. VTP uses mesh information, boundary conditions and nodal loads from other software (ANSYS, ABAQUS…) as input files. More information can be founded in the user manual.

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>927</width>
+    <height>606</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>220</y>
+      <width>160</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="mainLayout"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>927</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuImport_Data">
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Import Data</string>
+    </property>
+    <addaction name="actionMesh"/>
+    <addaction name="actionResult_files"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuPVD_parameters">
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Soil-PVD parameters</string>
+    </property>
+    <addaction name="actionSoil_parameters"/>
+    <addaction name="actionPVD_parameters"/>
+    <addaction name="actionAnalysis_Type"/>
+   </widget>
+   <widget class="QMenu" name="menuView_Control">
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>View Control</string>
+    </property>
+    <addaction name="actionScale_Setting"/>
+    <addaction name="actionContour_Colour_Setting"/>
+    <addaction name="actionCutting_Plane_Setting"/>
+    <addaction name="actionTime_Step_Animation"/>
+   </widget>
+   <widget class="QMenu" name="menuRun">
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>Run</string>
+    </property>
+    <addaction name="actionFind_Correction_Factor"/>
+    <addaction name="actionAnalyze_With_Defined_Correction_Factor"/>
+   </widget>
+   <addaction name="menuImport_Data"/>
+   <addaction name="menuPVD_parameters"/>
+   <addaction name="menuView_Control"/>
+   <addaction name="menuRun"/>
+  </widget>
+  <action name="actionMesh">
+   <property name="text">
+    <string>Mesh and Boundary Conditions</string>
+   </property>
+  </action>
+  <action name="actionResult_files">
+   <property name="text">
+    <string>Result files</string>
+   </property>
+  </action>
+  <action name="actionSoil_parameters">
+   <property name="text">
+    <string>Soil parameters</string>
+   </property>
+  </action>
+  <action name="actionPVD_parameters">
+   <property name="text">
+    <string>PVD parameters</string>
+   </property>
+  </action>
+  <action name="actionAnalysis_Type">
+   <property name="text">
+    <string>Analysis Types and Golden Section Parameters</string>
+   </property>
+  </action>
+  <action name="actionScale_Setting">
+   <property name="text">
+    <string>Scale Setting</string>
+   </property>
+  </action>
+  <action name="actionContour_Colour_Setting">
+   <property name="text">
+    <string>Contour Colour Setting</string>
+   </property>
+  </action>
+  <action name="actionCutting_Plane_Setting">
+   <property name="text">
+    <string>Cutting Plane Setting</string>
+   </property>
+  </action>
+  <action name="actionTime_Step_Animation">
+   <property name="text">
+    <string>Time Step / Animation</string>
+   </property>
+  </action>
+  <action name="actionFind_Correction_Factor">
+   <property name="text">
+    <string>Find Correction Factor</string>
+   </property>
+  </action>
+  <action name="actionAnalyze_With_Defined_Correction_Factor">
+   <property name="text">
+    <string>Analyze With Defined Correction Factor</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
